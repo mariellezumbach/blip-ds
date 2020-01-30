@@ -3,7 +3,7 @@
 
 # BliP DS 
 
-This project was born based on the need to create a Deisgn System to be used within Take, the components are written in Web Components using the StencilJS library created by the Ionic team.
+This project was born based on the need to create a Design System for BLiP platform. The components are written in Web Components using the StencilJS library created by the Ionic team.
 
 This project was created using [stencil-app-starter](https://github.com/ionic-team/stencil-app-starter).
 
@@ -11,7 +11,7 @@ This project was created using [stencil-app-starter](https://github.com/ionic-te
 
 Stencil is a compiler for building fast web apps using Web Components.
 
-Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
+Stencil combines the best concepts of the most popular front-end frameworks into a compile-time rather than run-time tool. Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box. It generates 100% standards-based Web Components that run in any browser, supporting the Custom Elements v1 spec.
 
 Stencil components are just Web Components, so they work in any major framework or with no framework at all.
 
@@ -25,7 +25,7 @@ npm i blip-ds
 
 ## Framework Integrations
 
-There is not much secret, if you need something more detailed I recommend reading the [documentação do StencilJS](https://stenciljs.com/docs/overview).
+There is not much secret. If you need something more detailed, I recommend reading the [documentação do StencilJS](https://stenciljs.com/docs/overview).
 
 ### Angular
 
@@ -35,7 +35,7 @@ import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 // Note: loader import location set using "esmLoaderPath" within the output target confg
-import { applyPolyfills, defineCustomElements } from 'blip-ds/loader';
+import { applyPolyfills, defineCustomElements } from 'blip-ds/loader'; 
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
